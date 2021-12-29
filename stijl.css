@@ -1,0 +1,121 @@
+
+body{background-color: #eee; margin:0;}
+header{background-color: #9DDBAD; margin:0;background-image: url("portfolio_bg.png"); background-size: 500px; margin:0;}
+
+header h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+header h2{font-size: 2rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0rem 2rem; padding-bottom: 2rem;}
+
+ul {text-align: right; width: 100%;  height: 10px; padding-right: 20px; padding-bottom: 30px; }
+  li {float: right;}
+  ul a {color: black; padding: 0 15px 0 15px; text-decoration: none; font-family: 'Shadows Into Light', cursive; font-size: 1.5rem;}
+  ul a:hover {color: darkred;}
+
+.ontwerpen h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+.ontwerpen a{text-decoration: none;text-align: center;color: #4E0110}
+.link_ontwerpen {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+.ontwerpen {background-image: url("operaposterdiv.jpg"); padding-top: 10rem; padding-bottom:10rem; margin:0; background-size: 530px; border:1rem solid black;border-top: 2rem solid black;}
+
+.overmezelf h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+.overmezelf a{text-decoration: none;text-align: center;color: #4E0110}
+.link_overmezelf {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+.overmezelf {background-image: url("homepage1.jpeg"); padding-top: 10rem; padding-bottom:10rem; margin:0; background-size: 480px; border:1rem solid black;}
+
+.contact h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+.contact a{text-decoration: none;text-align: center;color: #4E0110}
+.link_contact {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+.contact {background-image: url("contact.jpg"); padding-top: 10rem; padding-bottom:10rem; margin:0; background-size: 480px; border:1rem solid black;}
+
+
+
+
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+
+	@media (min-width: 60rem) {
+
+
+
+.ontwerpen h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+.ontwerpen a{text-decoration: none;text-align: center;color: #4E0110}
+.link_ontwerpen {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+.ontwerpen {background-image: url("operaposterdiv.jpg"); padding-top: 20rem; padding-bottom:20rem; margin:0; background-size: 1030px; border:1rem solid black;border-top: 2rem solid black;}
+
+.overmezelf h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+.overmezelf a{text-decoration: none;text-align: center;color: #4E0110}
+.link_overmezelf {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+.overmezelf {background-image: url("homepage1.jpeg"); padding-top: 20rem; padding-bottom:20rem; margin:0; background-size: 1000px; border:1rem solid black; background-position: 0 110rem;}
+
+.contact h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+.contact a{text-decoration: none;text-align: center;color: #4E0110}
+.link_contact {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+.contact {background-image: url("contact.jpg"); padding-top: 20rem; padding-bottom:20rem; margin:0; background-size: 980px; border:1rem solid black;background-position: 0 60rem;}
+ul {text-align: right; width: 100%;  height: 10px; padding-right: 20px; padding-bottom: 50px; }
+  ul a {color: black; padding: 0 15px 0px 15px; text-decoration: none; font-family: 'Shadows Into Light', cursive; font-size: 3rem;}
+
+    }
+
+
+    @media (min-width: 80rem) {
+
+
+
+  .ontwerpen h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+  .ontwerpen a{text-decoration: none;text-align: center;color: #4E0110}
+  .link_ontwerpen {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+  .ontwerpen {background-image: url("operaposterdiv.jpg"); padding-top: 20rem; padding-bottom:20rem; margin:0; background-size: 1330px; border:1rem solid black;border-top: 2rem solid black;}
+
+  .overmezelf h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+  .overmezelf a{text-decoration: none;text-align: center;color: #4E0110}
+  .link_overmezelf {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+  .overmezelf {background-image: url("homepage1.jpeg"); padding-top: 20rem; padding-bottom:20rem; margin:0; background-size: 1300px; border:1rem solid black; background-position: 0 150rem;}
+
+  .contact h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+  .contact a{text-decoration: none;text-align: center;color: #4E0110}
+  .link_contact {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+  .contact {background-image: url("contact.jpg"); padding-top: 20rem; padding-bottom:20rem; margin:0; background-size: 1380px; border:1rem solid black;background-position: 0 80rem;}
+
+
+      }
+      @media (min-width: 90rem) {
+
+
+
+    .ontwerpen h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+    .ontwerpen a{text-decoration: none;text-align: center;color: #4E0110}
+    .link_ontwerpen {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+    .ontwerpen {background-image: url("operaposterdiv.jpg"); padding-top: 18rem; padding-bottom:18rem; margin:0; background-size: 830px; border:1rem solid black;border-top: 2rem solid black;}
+
+    .overmezelf h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+    .overmezelf a{text-decoration: none;text-align: center;color: #4E0110}
+    .link_overmezelf {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+    .overmezelf {background-image: url("homepage1.jpeg"); padding-top: 18rem; padding-bottom:18rem; margin:0; background-size: 1000px; border:1rem solid black; background-position: 0 120rem;border-top: 2rem solid black;}
+
+    .contact h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+    .contact a{text-decoration: none;text-align: center;color: #4E0110}
+    .link_contact {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+    .contact {background-image: url("contact.jpg"); padding-top: 10rem; padding-bottom:10rem; margin:0; background-size: 1000px; border:1rem solid black;background-position: 0 130rem; grid-column: 1/3}
+
+    main{display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 0.5fr;}
+        }
+        }
+        @media (min-width: 120rem) {
+
+
+
+      .ontwerpen h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+      .ontwerpen a{text-decoration: none;text-align: center;color: #4E0110}
+      .link_ontwerpen {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+      .ontwerpen {background-image: url("operaposterdiv.jpg"); padding-top: 25rem; padding-bottom:11rem; margin:0; background-size: 950px; border:1rem solid black;border-top: 2rem solid black;}
+
+      .overmezelf h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+      .overmezelf a{text-decoration: none;text-align: center;color: #4E0110}
+      .link_overmezelf {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+      .overmezelf {background-image: url("homepage1.jpeg"); padding-top: 25rem; padding-bottom:11rem; margin:0; background-size: 950px; border:1rem solid black; background-position: 0 110rem;border-top: 2rem solid black;}
+
+      .contact h1{font-size: 5rem; font-family: 'Shadows Into Light', cursive; margin: 0rem 2rem 0.5rem 2rem; padding-top:2rem; }
+      .contact a{text-decoration: none;text-align: center;color: #4E0110}
+      .link_contact {background-color: white;padding-bottom: 1rem;opacity: 80%;}
+      .contact {background-image: url("contact.jpg"); padding-top: 10rem; padding-bottom:10rem; margin:0; background-size: 1000px; border:1rem solid black;background-position: 0 130rem; grid-column: 1/3}
+      main{display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 2fr 1fr;}
+          }
+    }
